@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+
+
+.link {
+    font-family: 'Rock Salt', cursive;
+}
+
+.texto-direto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+}
+
+.botao {
+    font-family: 'Rock Salt', cursive;
+    transition: .5s;
+}
+
+.botao:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 2px solid white
+}
+
+.equipamentos {
+    font-family: 'Rock Salt', cursive;
+}
